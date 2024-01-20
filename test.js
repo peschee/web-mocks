@@ -1,5 +1,6 @@
 import { registerMockRoutes } from '@web/mocks/browser.js';
 import { http } from '@web/mocks/http.js';
+import { expect } from '@open-wc/testing';
 
 describe('test', () => {
   it('api', async () => {
